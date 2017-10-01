@@ -1,18 +1,17 @@
-import Link from 'next/link'
+import Head from 'next/head'
 
-const linkStyle = {
-  marginRight: 15
-}
-
-const Header = () => (
-    <div>
-        <Link href="/">
-          <a style={linkStyle}>Home</a>
-        </Link>
-        <Link href="/about">
-          <a style={linkStyle}>About</a>
-        </Link>
-    </div>
+export default () => (
+  <div>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+    </Head>
+    <style jsx global>{`
+      body {
+        background: #000;
+        margin: 0;
+        padding: 0;
+      }
+    `}</style>
+  </div>
 )
-
-export default Header

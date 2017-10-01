@@ -4,10 +4,13 @@
   "description": "repository for lotto-ui",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-emotion": "^7.3.2",
+    "emotion": "^7.3.2",
     "express": "^4.16.1",
     "next": "^3.2.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-emotion": "^7.3.2"
   },
   "devDependencies": {},
   "scripts": {
