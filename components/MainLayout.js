@@ -1,9 +1,8 @@
-import Header from './Header'
 import { AppContainer } from '../style/mainLayout'
+import Meta from './Meta'
 
 export default (props) => (
   <AppContainer>
-    <Header />
+    <Meta />
   </AppContainer>
-
 )
