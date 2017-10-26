@@ -1,11 +1,11 @@
 import {
   HeaderContainer,
   PageContainer
-} from '../style/mainLayout'
+} from 'STYLE/mainLayout'
 import {
   Navigation,
   NavigationItem
-} from '../style/navigation'
+} from 'STYLE/navigation'
 import { Title1 } from '../style/text'
 
 export default (props) => (

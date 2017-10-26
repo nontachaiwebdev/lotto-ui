@@ -1,8 +1,8 @@
-import {PageContainer} from '../style/mainLayout'
+import {PageContainer} from 'STYLE/mainLayout'
 import {
   SubNavigation,
   SubNavigationItem
-} from '../style/navigation'
+} from 'STYLE/navigation'
 
 export default (props) => (
   <PageContainer
