@@ -3,6 +3,10 @@
     "next/babel"
   ],
   "plugins": [
-    ["emotion", { "inline": true }]
+    ["emotion", { "inline": true }],
+    ["module-alias", [
+      { "src": "./components", "expose": "COMPONENTS" },
+      { "src": "./style", "expose": "STYLE" }
+    ]]
   ]
 }
