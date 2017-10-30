@@ -12,7 +12,9 @@
     "react-dom": "^15.5.4",
     "react-emotion": "^7.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-module-alias": "^1.6.0"
+  },
   "scripts": {
     "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"

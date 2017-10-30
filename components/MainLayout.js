@@ -1,4 +1,4 @@
-import { AppContainer } from '../style/mainLayout'
+import { AppContainer } from 'STYLE/mainLayout'
 import Meta from './Meta'
 import Header from './Header'
 import Content from './Content'
