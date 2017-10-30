@@ -6,7 +6,7 @@ import {
   Navigation,
   NavigationItem
 } from 'STYLE/navigation'
-import { Title1 } from '../style/text'
+import { Title1 } from 'STYLE/text'
 
 export default (props) => (
   <HeaderContainer>
